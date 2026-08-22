@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1 id="h1">porgram not on process</h1>
+    <label id="lb">0</label><br>
+    <button id="in">increse</button>
+    <button id="re">reset</button>
+    <button id="de">decrese</button><br><br>
+    <button id="bnt"> show me</button>
+
+    <script>
+       
+        let count= 0;
+        document.getElementById("in").onclick =function(){
+        count++;
+       lb.textContent = count;
+        }
+        document.getElementById("re"). onclick =function(){
+            count =0;
+            lb.textContent = count;
+        }
+        document.getElementById("de"). onclick=function (){
+            count--;
+        lb.textContent =count;
+        }
+        
+
+    </script>
+</body>
+</html>
