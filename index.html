@@ -6,30 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-  <h1 id="h1">porgram not on process</h1>
-    <label id="lb">0</label><br>
-    <button id="in">increse</button>
-    <button id="re">reset</button>
-    <button id="de">decrese</button><br><br>
-    <button id="bnt"> show me</button>
+    <h1 id="pp">you are boss</h1>
+    <button id="btn">click</button>
 
     <script>
-       
-        let count= 0;
-        document.getElementById("in").onclick =function(){
-        count++;
-       lb.textContent = count;
+        document.getElementById("btn").onclick =function(){
+            document.getElementById("pp").textContent =`you can do it`;
         }
-        document.getElementById("re"). onclick =function(){
-            count =0;
-            lb.textContent = count;
-        }
-        document.getElementById("de"). onclick=function (){
-            count--;
-        lb.textContent =count;
-        }
-        
-
     </script>
 </body>
 </html>
