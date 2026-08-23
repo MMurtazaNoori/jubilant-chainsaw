@@ -6,13 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="pp">you are boss</h1>
-    <button id="btn">click</button>
+    <h1 id="h1"></h1>
+    <h1 id="h2"></h1>
+    <h1 id="h3"></h1>
 
     <script>
-        document.getElementById("btn").onclick =function(){
-            document.getElementById("pp").textContent =`you can do it`;
-        }
+        
+        let x= 49;
+        let p=10;
+        let y = 4;
+
+        let z;
+        z = Math.avg(x,p,y);
+
+        document.getElementById("h1"). textContent =`${x}`;
+        document.getElementById("h2"). textContent =`${y}`;
+        document.getElementById("h3"). textContent =`${z}`;
+        
     </script>
 </body>
 </html>
